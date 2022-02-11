@@ -23,7 +23,7 @@ request(requestSettings, function (error, response, body) {
         if (entity.trip_update) {
             console.log(entity.trip_update);
         }
-        console.log(entity.tripUpdate)
+        console.log(entity.tripUpdate.stopTimeUpdate)
       });
     }
     //console.log(response.statusCode)
