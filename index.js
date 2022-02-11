@@ -7,3 +7,4 @@ const TwitterApp = new TwitterClient({
     accessToken: process.env.TWITTER_ACCESS_TOKEN,
     accessTokenSecret: process.env.TWITTER_ACCESS_TOKEN_SECRET
 })
+
