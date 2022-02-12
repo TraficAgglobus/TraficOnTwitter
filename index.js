@@ -23,7 +23,7 @@ request(requestSettings, function (error, response, body) {
         if (entity.trip_update) {
             console.log(entity.trip_update);
         }
-        console.log(entity.TripDescriptor)
+        console.log(GtfsRealtimeBindings.transit_realtime.FeedEntity.decode(body).isDeleted)
       });
     }
     //console.log(response.statusCode)
