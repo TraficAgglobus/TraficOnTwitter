@@ -1,5 +1,5 @@
-// require('dotenv').config()
-// const {TwitterClient} = require('twitter-api-client')
+require('dotenv').config()
+const {TwitterClient} = require('twitter-api-client')
 const GtfsRealtimeBindings = require('gtfs-realtime-bindings');
 const request = require('request');
 
@@ -23,7 +23,7 @@ request(requestSettings, function (error, response, body) {
         if (entity.trip_update) {
             console.log(entity.trip_update);
         }
-        console.log(GtfsRealtimeBindings.transit_realtime.FeedEntity.decode(body).isDeleted)
+        console.log(feed.entity)
       });
     }
     //console.log(response.statusCode)
