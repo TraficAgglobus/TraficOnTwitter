@@ -12,7 +12,7 @@ const TwitterApp = new TwitterClient({
 
 var requestSettings = {
     method: 'GET',
-    url: 'https://data.centrevaldeloire.fr/api/v2/catalog/datasets/agglobus-offre-theorique-mobilite-reseau-urbain-de-bourges/files/07b1b166df5e5f866ad75589b3824978',
+    url: 'https://data.centrevaldeloire.fr/explore/dataset/agglobus-offre-theorique-mobilite-reseau-urbain-de-bourges/files/07b1b166df5e5f866ad75589b3824978/download/',
     encoding: null
 };
 
